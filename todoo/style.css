@@ -1,0 +1,115 @@
+body {
+    display: flex;
+    background-color: rgb(224, 224, 224);
+}
+
+*{
+    margin: 0 5px;
+}
+
+.ContainerEsquerda {
+    width: 50%;
+    height: 100vh;
+    text-align: center;
+}
+
+.ContainerDireita {
+    width: 50%;
+    height: fit-content;
+    text-align: center;
+}
+
+.Contador {
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.NovaTarefa {
+    height: 50vh;
+    
+}
+
+.ContadorTarefasConcluidas {
+    width: 100%;
+    height: fit-content;
+    margin: 3px 5px;
+    padding: 15px 0px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+}
+
+.CriarTarefa {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
+    align-items: flex-start;
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    min-width: 275px;
+    padding: 15px 0;
+    border-radius: 10px;
+}
+
+.CriarTarefa h4 {
+    margin: 10px 5vw;
+}
+
+.CriarTarefa h1 {
+    margin: 10px auto;
+}
+
+.DigitarTextos {
+    margin: 0 5vw 10px 5vw;
+    font-size: 20px;
+    padding: 5px 4vw;
+    width: 60%;
+}
+
+.enviar {
+    margin: 10px auto 0px auto;
+    width: 50%;
+    font-size: 20px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.tarefa {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.selecionarStatus {
+    display: flex;
+    align-items: center;
+    width: 95%;
+    margin: 0 0 10px 0;
+    padding: 0 5%;
+}
+
+.apagarTarefa {
+    width: 100%;
+    background-color: rgb(224, 224, 224);
+    color: black;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    height: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: 0;
+}
+
+.apagarTarefa:hover {
+    background-color: rgb(254, 37, 37);
+    opacity: 80%;
+    color: white;
+}
